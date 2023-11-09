@@ -1,0 +1,36 @@
+.block {
+  width: 200px;
+  height: 200px;
+}
+
+.small-block {
+  width: 30px;
+  height: 30px;
+}
+
+.green {
+  background-color: green;
+  position: absolute;
+  z-index: 1000;
+}
+
+.blue {
+  background-color: blue;
+  position: absolute;
+  left: 150px;
+  z-index: 3;
+}
+
+.red {
+  background-color: red;
+  position: absolute;
+  top: 150px;
+  z-index: 4;
+}
+
+.black {
+  background: #000;
+  position: absolute;
+  right: -15px;
+  z-index: 2;
+}
