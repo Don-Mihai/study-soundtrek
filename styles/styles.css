@@ -261,6 +261,252 @@ body {
   transform: translateX(0);
 }
 
+.blur {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  filter: blur(5px);
+}
+
+.cases {
+  margin-top: 100px;
+}
+.cases__container {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+}
+.cases__content {
+  display: flex;
+  flex-direction: column;
+}
+.cases__catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.cases__title {
+  font-family: Poppins;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0.8333333135px;
+  text-align: left;
+}
+.cases__text {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.3461538851px;
+  text-align: left;
+  color: #404852;
+}
+.cases__arrow {
+  margin-top: 20px;
+  background-image: url("../images/arrow.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  width: 19.61px;
+  height: 24.22px;
+}
+.cases__line {
+  width: 600px;
+  height: 1px;
+  border: 0.5px;
+  opacity: 0.4;
+  background-color: #000;
+}
+.cases__block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+  height: 153px;
+  width: 100%;
+}
+.cases__block:hover {
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3);
+}
+.cases__item {
+  display: flex;
+  justify-content: space-between;
+}
+.cases__numandlink {
+  display: flex;
+  gap: 70px;
+}
+.cases__studies {
+  display: flex;
+  flex-direction: column;
+}
+.cases__link {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0.8333333135px;
+  text-align: left;
+}
+.cases__link:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.cases__3case {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  opacity: 0.5;
+}
+.cases__num {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.34;
+}
+
+.chat__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.chat__info {
+  width: 440px;
+  padding-top: 160px;
+}
+.chat__info hr {
+  width: 120px;
+  color: #dedede;
+  margin: 50px 0px;
+}
+.chat__info-title {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  line-height: 62px;
+}
+.chat__info-desc {
+  display: flex;
+  flex-direction: column;
+}
+.chat__info-desc-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #404852;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.chat__info-desc-person {
+  display: flex;
+}
+.chat__info-desc-person img {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+.chat__info-desc-person-text {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.chat__info-desc-person-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: #273240;
+}
+.chat__info-desc-person-job {
+  font-size: 12px;
+  font-weight: 400;
+  color: #2c3a4b;
+}
+.chat__images {
+  position: relative;
+  width: 100%;
+  max-width: 696px;
+}
+.chat__images-top {
+  height: 433px;
+  display: flex;
+  justify-content: end;
+}
+.chat__images-top-text {
+  width: 235px;
+  height: 95px;
+  position: absolute;
+  right: 290px;
+  top: 185px;
+  background-color: #7d6353;
+  padding: 14px 30px;
+  border-radius: 10px 10px 0px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #fff;
+  z-index: 1;
+}
+.chat__images-bottom {
+  height: 433px;
+  display: flex;
+}
+.chat__images-bottom-text1 {
+  height: 50px;
+  position: absolute;
+  left: 265px;
+  bottom: 305px;
+  background-color: #726985;
+  padding: 14px 30px;
+  border-radius: 25px 25px 25px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #fff;
+  z-index: 1;
+}
+.chat__images-bottom-text2 {
+  height: 50px;
+  position: absolute;
+  left: 265px;
+  bottom: 245px;
+  background-color: #726985;
+  padding: 14px 30px;
+  border-radius: 25px 25px 25px 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #fff;
+  z-index: 1;
+}
+.sun {
+  display: none;
+}
+
+.black .header {
+  background-color: #000;
+  color: #fff;
+}
+.black .nav__link {
+  color: #fff;
+}
+
 @media screen and (max-width: 1200px) {
   .header__container {
     padding-left: 8px;
