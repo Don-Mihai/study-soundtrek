@@ -58,6 +58,10 @@ body {
 .nav__link {
   text-decoration: none;
   color: #21383e;
+  border-bottom: 3px solid transparent;
+}
+.nav__link--active {
+  border-bottom: 3px solid #000;
 }
 
 .auth {

@@ -16,3 +16,4 @@ sun.onclick = () => {
     sun.style.display = 'none'
     moon.style.display = 'block'
 }
+
